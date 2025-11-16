@@ -1,14 +1,9 @@
 {
-  "name": "Java 21 Dev Container",
-  "image": "mcr.microsoft.com/devcontainers/java:0-21",
-  "features": {
-    "ghcr.io/devcontainers-contrib/features/javafx:1": {}
-  },
-  "customizations": {
-    "vscode": {
-      "extensions": [
-        "vscjava.vscode-java-pack"
-      ]
-    }
-  }
+  "name": "Java 21 Banking App",
+  "image": "mcr.microsoft.com/devcontainers/java:21",
+  "workspaceFolder": "/workspaces/LAONEPOLAO-FCSE24-008-ASSIGNMENT_BANKING_APPLICATION_2025",
+  "extensions": [
+    "vscjava.vscode-java-pack"
+  ],
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y maven"
 }
