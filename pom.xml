@@ -7,6 +7,7 @@
   <groupId>com.laone</groupId>
   <artifactId>banking-app</artifactId>
   <version>1.0-SNAPSHOT</version>
+  <packaging>jar</packaging>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -45,6 +46,13 @@
         <configuration>
           <mainClass>${exec.mainClass}</mainClass>
         </configuration>
+        <executions>
+          <execution>
+            <goals>
+              <goal>run</goal>
+            </goals>
+          </execution>
+        </executions>
       </plugin>
     </plugins>
   </build>
