@@ -1079,7 +1079,7 @@ public class BankingSystem extends Application
 
     public static void main(String[] args) {
         DBConnector.testConnection();
-        launch(args);
+       launch(args);
 
     }
 
