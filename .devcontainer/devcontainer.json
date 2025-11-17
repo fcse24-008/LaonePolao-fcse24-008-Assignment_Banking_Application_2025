@@ -5,5 +5,7 @@
   "extensions": [
     "vscjava.vscode-java-pack"
   ],
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y maven"
+  "features": {
+    "maven": "latest"
+  }
 }
