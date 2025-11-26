@@ -1,11 +1,3 @@
-/* Label labelname = new Label("textprompt");
-  Button buttonname = new Button("textprompt");
-hbox/vbow bow name= new vbox (attributes like buttons and other hbows or vboxes)
-
-pos includes center top and bottom
-can be combined with left ringht and centre
-
-*/
 
 package com.laone.system;
 import com.laone.accounts.Cheque;
@@ -1078,7 +1070,7 @@ public class BankingSystem extends Application
 
 
     public static void main(String[] args) {
-        DBConnector.testConnection();
+       DBConnector.testConnection();
        launch(args);
 
     }
