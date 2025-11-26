@@ -2,11 +2,15 @@
   "name": "Java 21 Banking App",
   "image": "mcr.microsoft.com/devcontainers/java:21",
   "workspaceFolder": "/workspaces/LAONEPOLAO-FCSE24-008-ASSIGNMENT_BANKING_APPLICATION_2025",
-  "extensions": [
-    "vscjava.vscode-java-pack"
-  ],
+  "customizations": {
+  "vscode": {
+    "extensions": [
+      "vscjava.vscode-java-pack"
+    ]
+  }
+},
   "features": {
-    "maven": "latest"
+     "ghcr.io/devcontainers/features/maven:1": {}
     
   }
 }
