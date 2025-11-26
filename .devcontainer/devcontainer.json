@@ -1,6 +1,6 @@
 {
   "name": "Java 21 Banking App",
-  "image": "mcr.microsoft.com/devcontainers/java:21",
+  "image": "ghcr.io/devcontainers/images/java:21",
   "workspaceFolder": "/workspaces/LAONEPOLAO-FCSE24-008-ASSIGNMENT_BANKING_APPLICATION_2025",
   "customizations": {
   "vscode": {
@@ -11,6 +11,5 @@
 },
   "features": {
      "ghcr.io/devcontainers/features/maven:1": {}
-    
   }
 }
